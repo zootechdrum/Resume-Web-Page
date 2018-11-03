@@ -3,7 +3,7 @@ html{
 }
 
 body{
-   /* background: #e1e8f0; */
+   background: #e1e8f0;
    min-height:100%;
    margin:0;
    padding:0;
@@ -24,10 +24,8 @@ header{
 }
 
 .red{
-    min-width: 100px;;
     padding: 40px;
     border-radius:10px;
-    position:relative;
 }
 
 #about{
@@ -41,55 +39,49 @@ header{
     text-align:center;
 }
 
-.container .skillbar {
+.skillbar {
     position:relative;
-    display:block;
     margin-bottom:15px;
     width:100%;
-    height:35px;
+    height:20px;
     background:#eee;
-    border-radius:3px;
-    transition:0.4s linear;
+    border-radius:5px;
     border-top-left-radius:5px;
-	border-bottom-left-radius:4px;
-    transition-property: width,background-color;
-}
+    border-bottom-left-radius:4px; 
+} 
 
 .skillbar-title {
-    position:absolute;
-    top:10;
-    left:0;
+    position:absolute; 
+     top:0px;
+     left:30px;
     width:110px;
     font-weight:bold;
     font-size:13px;
-    color:#ffffff;
-    background:#6adcfa;
-    border-top-left-radius:5px;
-	border-bottom-left-radius:4px;
+    border-radius:5px;
+    color:#F6F6F6;
 }
 
 .skillbar-title span {
     display:block;
     background: rgba(0,0,0,0.1);
     padding: 0 30px;
-    height:35px;
-    line-height:35px;
+    height:20px;
+    line-height:20px;
 }
 
 .skillbar-bar {
-    height: 35px;
+    border-radius: 5px;
+    height: 20px;
     width:0px;
-    background:#e62739;
-    border-radius:13px;
-    margin-left:50px;
+    transition:all 0.6s linear;
 }
 
 .skill-bar-percent {
     position:absolute;
     right:2px;
-    top:0;
+    top:-7px;;
     font-size:11px;
-    height:35px;
+    height:20px;
     line-height:35px;
     color:#e62739;
     color: rgba(0, 0, 0,0.4);
@@ -97,14 +89,21 @@ header{
 
 img {
     margin-top:45px;
-    width:400px;
-    height:500px;
+    width:70%;
+    height:90%;
     border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #socialMedia{
     background:#FFCC33;  
     margin-top:20px;  
+    border-radius: 50px;
+}
+
+#socialMedia i:hover{
+    transform:scale(1.3);
+    color:#FFFF99;
 }
 
 i {
@@ -112,9 +111,20 @@ i {
     padding:22px;
 }
 
+
 #resumeSection{
     text-align: center;
     margin-top:20px;
+}
+/*Projects Section*/
+#markDwn{
+    height:300px;
+    width:300px;
+    border:solid black;
+    margin-bottom:90px;
+}
+h5{
+    text-align:center;
 }
 
 
@@ -143,12 +153,41 @@ footer{
         background:#FFCC33;
     }
     body{
-        background:	url("https://www.designyourway.net/diverse/darkpat/wallpaper_800x600_1023.jpg")
+        background:#222222;
     }
     h1,h2,h3,h4,h5{
         color:#fefff9;
     }
     p{
+        text-align:center;
         color:white;
     }
-}
+    .skillbar-title{
+        left:-5%;
+        width:0%;
+        /* position:absolute; */
+        background:#a6abaa !important; 
+        color:#F6F6F6;
+    }
+    #socialMedia{
+        border-radius: 8px;
+        padding:5px;
+        margin-bottom:-18px;
+    }
+    .skillbar, .skillbar-title, .skillbar-bar, .skill-bar-percent{
+        height:10px;
+    }
+
+    .skill-bar-percent{
+        font-size:8px;
+        margin-top:-5px;;
+    }
+
+    .skillbar-title, span{
+        display:block;
+        line-height:25px; 
+        font-size:10px; 
+        margin-top:2%; 
+        color: #111111;
+        background: rgba(0,0,0,0) !important;
+    }
