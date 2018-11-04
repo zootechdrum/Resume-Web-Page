@@ -9,6 +9,7 @@ body{
    padding:0;
    position:relative;
    background: url("https://cdn.hipwallpaper.com/i/46/74/iHoy2z.jpg") no-repeat center center fixed;
+   font-family: 'Raleway', sans-serif;
 }
 
 
@@ -117,15 +118,75 @@ i {
     margin-top:20px;
 }
 /*Projects Section*/
-#markDwn{
+.indiContainer{
     height:300px;
     width:300px;
     border:solid black;
     margin-bottom:90px;
+    background-color: #FFCC33;
+    border-radius:5px;
+    margin-top:15px;
 }
-h5{
+
+.indiContainer > img {
     text-align:center;
+    border-radius: 10%;
+    height:100px;
+    width:170px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
+.indiContainer  button{
+    text-align:center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+#projectsTitle {
+    border-bottom: solid black 2px;
+    width:30%;
+    text-align:center;
+    padding:15px;
+}
+
+h6{
+    text-align:center;
+    padding:15px;
+    background:#007bff;
+}
+button{
+    background-color:#007bff !important;
+    color:white;;
+}
+
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+button:hover {
+	animation: bounce 1s;
+}
+
 
 
 
@@ -190,4 +251,18 @@ footer{
         margin-top:2%; 
         color: #111111;
         background: rgba(0,0,0,0) !important;
+    }
+
+    @media screen and (max-width: 568px) {
+        .skillbar-title, span{
+            display:block;
+            line-height:0.5em; 
+            font-size:10px; 
+            margin-top:3.2%; 
+        }
+        #socialMedia, i {
+            width:100%;
+        }
+
+
     }
