@@ -237,6 +237,9 @@ footer{
     h1,h2,h3,h4,h5{
         color:#fefff9;
     }
+    h6{
+        background-color: #007bff;
+    }
     p{
         text-align:center;
         color:white;
