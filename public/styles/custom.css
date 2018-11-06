@@ -129,7 +129,7 @@ i {
 }
 /*Projects Section*/
 .indiContainer{
-    color:white;
+    color:#fefff9;
     height:300px;
     width:300px;
     border:solid black 1px;
@@ -272,6 +272,9 @@ footer{
         margin-top:2%; 
         color: #111111;
         background: rgba(0,0,0,0) !important;
+    }
+    .indiContainer {
+        background-color: #fefff9;
     }
 }
 
