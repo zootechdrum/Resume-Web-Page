@@ -13,7 +13,6 @@ body{
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
- }
    font-family: 'Raleway', sans-serif;
 }
 
@@ -31,7 +30,9 @@ header{
 
 .red{
     padding: 40px;
-    border-radius:10px;
+    border-radius:3px;
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius:15px;
 }
 
 #about{
@@ -39,6 +40,10 @@ header{
     margin-bottom:60px;
     font-weight: bold;
     line-height:2.3;
+}
+
+#aboutMe{
+    background-color:rgba(255, 255, 255, 0.5);
 }
 
 #skillSection{
@@ -95,8 +100,8 @@ header{
 
 img {
     margin-top:45px;
-    width:70%;
-    height:90%;
+    width:350px;;
+    height:500px;
     border-radius:10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -104,7 +109,7 @@ img {
 #socialMedia{
     background:#FFCC33;  
     margin-top:20px;  
-    border-radius: 50px;
+    border-radius: 15px;
 }
 
 #socialMedia i:hover{
@@ -124,11 +129,12 @@ i {
 }
 /*Projects Section*/
 .indiContainer{
+    color:white;
     height:300px;
     width:300px;
-    border:solid black;
+    border:solid black 1px;
     margin-bottom:90px;
-    background-color: #FFCC33;
+    background-color: rgba(253, 251, 253);
     border-radius:5px;
     margin-top:15px;
 }
@@ -164,7 +170,7 @@ a {
 h6{
     text-align:center;
     padding:15px;
-    background:#007bff;
+    background:rgba(113, 0, 202);
 }
 button{
     background-color:#007bff !important;
@@ -201,7 +207,7 @@ footer{
     width:100%;
     bottom:0;
     height:40px;
-    background:#FFCC33;
+    background:rgba(232, 18, 37);
 
 }
 
