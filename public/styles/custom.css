@@ -28,7 +28,7 @@ header{
     margin-bottom:30px; 
 }
 
-.red{
+.skill_social_cont{
     padding: 40px;
     border-radius:3px;
     background-color:rgba(255, 255, 255, 0.5);
@@ -64,7 +64,7 @@ header{
 .skillbar-title {
     position:absolute; 
      top:0px;
-     left:30px;
+     left:0px;
     width:110px;
     font-weight:bold;
     font-size:13px;
@@ -97,10 +97,12 @@ header{
     color: rgba(0, 0, 0,0.4);
 }
 
-img {
+#selfie {
     margin-top:45px;
+    max-width:300px;
+    min-height:350px;
     width:60%;
-    height:80%;
+    height:60%;
     border-radius:10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -228,7 +230,7 @@ footer{
     margin-top:25px;
 }
 @media screen and (max-width: 767px) {
-    .red{ 
+    .skill_social_cont{ 
         background:#FFCC33;
     }
     body{
@@ -245,11 +247,12 @@ footer{
         color:white;
     }
     .skillbar-title{
-        left:-5%;
-        width:0%;
-        /* position:absolute; */
-        background:#a6abaa !important; 
+        width:40%;
+        background-color:#0a0500;
         color:#F6F6F6;
+    }
+    .skillbar-bar{
+        background-color: #0a0500 !important;
     }
     #socialMedia{
         border-radius: 8px;
@@ -257,21 +260,13 @@ footer{
         margin-bottom:-18px;
     }
     .skillbar, .skillbar-title, .skillbar-bar, .skill-bar-percent{
-        height:10px;
+        height:20px;
     }
 
     .skill-bar-percent{
         font-size:8px;
-        margin-top:-5px;;
-    }
+        margin-top:-2px;
 
-    .skillbar-title, span{
-        display:block;
-        line-height:25px; 
-        font-size:10px; 
-        margin-top:2%; 
-        color: #111111;
-        background: rgba(0,0,0,0) !important;
     }
     .indiContainer {
         background-color: #fefff9;
@@ -279,12 +274,6 @@ footer{
 }
 
     @media screen and (max-width: 568px) {
-        .skillbar-title, span{
-            display:block;
-            line-height:0.5em; 
-            font-size:10px; 
-            margin-top:3.2%; 
-        }
         #socialMedia, i {
             width:100%;
         }
