@@ -61,10 +61,12 @@
 
 .aboutMeCont{
   margin-top:55px;
+  margin-bottom: 90px;
 }
 
 .tech-cont{
-  margin-top:15px;
+  margin-top:35px;
+  margin: 0 auto;
 }
 .technolgies-section{
   padding:20px;
