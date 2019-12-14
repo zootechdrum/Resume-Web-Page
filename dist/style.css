@@ -31,7 +31,7 @@
 .header-sent{
   font-size:1.5rem;
   font-family: 'Lato', sans-serif;
-    letter-spacing:2px;
+  letter-spacing:2px;
 }
 
 .nav{
@@ -67,7 +67,8 @@
   margin-top:15px;
 }
 .technolgies-section{
-  padding:15px;
+  padding:20px;
+  padding-bottom:35px;
   background-color: #1F2833;
   margin-top:20px;
   color:white;
@@ -104,6 +105,6 @@ footer{
 .fa {
   height:30px;
   font-size: 20px;
-  color:white;
+  color:#66FCF1;
   background: #0b0c10;
 }
