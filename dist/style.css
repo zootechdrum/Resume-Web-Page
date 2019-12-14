@@ -44,7 +44,7 @@
 
 .stock-img > img{
   margin-left: 65px;
-  width:240px;
+  width:250px;
   height:250px;
   clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
 }
@@ -100,7 +100,6 @@
 
 .profile1 img {
   max-width: 100%;
-  opacity: 0.7;
   vertical-align: top;
 }
 
@@ -111,6 +110,7 @@ footer{
   position: absolute;
   background-color:#0b0c10;
   color:white;
+  margin-top:30px;
 }
 
 .socialmedia-widget li {
