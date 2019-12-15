@@ -1,3 +1,8 @@
+html, body{
+  margin: 0;
+  padding:0px;
+}
+
 .site{
   position: relative;
   min-height: 100vh;
@@ -83,12 +88,12 @@
 }
 
 .tech-pic{
-  width:200px;
-  height:200px;
+  width:150px;
+  height:150px;
 }
 
+
 .profile1 {
-  float:left;
   font-family: 'Lato', sans-serif;;
   min-width: 330px;
   max-width: 315px;
@@ -106,13 +111,31 @@
   vertical-align: top;
 }
 
+figure > h2 {
+  text-align: center;
+  letter-spacing: 2px;
+  color: #45A29E;
+}
+
 figure > p, h2 {
   padding: 7px;
 }
 
+.card-details > ul {
+  list-style:none;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+.card-details > ul > li {
+    text-align:center;
+    font-size:1.2rem;
+    padding: 3px
+}
+
 /* Footer Section */
 footer{
-  height:30%;
+  height:10%;
   width:100%;
   position: absolute;
   background-color:#0b0c10;
@@ -121,6 +144,7 @@ footer{
 }
 
 .footer-title{
+  letter-spacing: 2px;
   padding-top:25px;
 }
 
