@@ -1,6 +1,7 @@
 .site{
   position: relative;
   min-height: 100vh;
+  font:'Lato', sans-serif;
 }
 
 #content-wrap {
@@ -88,7 +89,7 @@
 
 .profile1 {
   float:left;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Lato', sans-serif;;
   min-width: 330px;
   max-width: 315px;
   z-index:100;
