@@ -170,5 +170,7 @@ footer{
 @media only screen and (max-width: 993px) {
   .profile1 {
     margin:0 auto;
+
+    margin-top:5%;
   }
 }
