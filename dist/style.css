@@ -110,6 +110,7 @@ html, body{
 .profile1 img {
   max-width: 100%;
   vertical-align: top;
+  height: 230px;
 }
 
 figure > h2 {
