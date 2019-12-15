@@ -4,7 +4,7 @@
 }
 
 #content-wrap {
-  padding-bottom: 30.5rem;    /* Footer height */
+  padding-bottom: 20.5rem;    /* Footer height */
 }
 
 .container-fluid {
@@ -105,9 +105,13 @@
   vertical-align: top;
 }
 
+figure > p, h2 {
+  padding: 7px;
+}
+
 /* Footer Section */
 footer{
-  height:20%;
+  height:30%;
   width:100%;
   position: absolute;
   background-color:#0b0c10;
