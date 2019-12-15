@@ -49,7 +49,7 @@ html, body{
   color:#0b0c10;
 }
 
-.stock-img > img{
+.aboutMe-img> img{
   margin-left: 65px;
   width:250px;
   height:250px;
@@ -173,4 +173,28 @@ footer{
 
     margin-top:5%;
   }
+
+  .aboutMe {
+    text-align: center;
+    padding:0;
+    padding:none;
+  }
+
+  .aboutMeTitle{
+    margin: 0 auto;
+    width:300px;
+    margin-top:35px;
+    border-bottom: 5px solid black;
+  
+  }
+  .aboutMe-img{
+    margin:0 auto;
+  }
+
+  .aboutMe-blurb{
+    margin-top:15px;
+    text-align:left;
+    padding:1px;
+  }
+
 }
